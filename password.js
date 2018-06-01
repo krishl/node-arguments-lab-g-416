@@ -8,7 +8,7 @@ var generatePassword = function generatePassword(length, charset) {
   return password
 }
 
-var count = 1
+var num = 1
 var argv = process.argv
 
 if (argv[2]) {
