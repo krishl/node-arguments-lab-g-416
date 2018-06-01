@@ -12,10 +12,10 @@ var num = 1
 var argv = process.argv
 
 if (argv[2]) {
-  length = parseInt(argv[2], 10)
+  length = parseInt(argv[2], 10);
 }
 if (argv[3]) {
-  number = parseInt(argv[3], 10)
+  number = parseInt(argv[3], 10);
 }
 
 for (var i = 1; i <=number; i++) {
