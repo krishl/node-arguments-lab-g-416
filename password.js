@@ -1,4 +1,4 @@
-var generatePassword = function generatePassword(length, charset) {
+var generatePassword = function generatePassword(length) {
   var length = length || 8,
     charset = charset || 'abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789',
     password = '';
